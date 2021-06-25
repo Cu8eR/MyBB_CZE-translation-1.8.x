@@ -32,6 +32,7 @@ $l['userdata_invalid_birthday'] = 'Vámi zadané datum narození není platné. 
 $l['userdata_invalid_birthday_coppa'] = 'Z důvodu nutnosti ověření Vašeho věku, prosím, zadejte rok Vašeho narození. Věk a datum narození lze před ostatními uživateli skrýt pomocí nastavení možností ve Vašem profilu.';
 $l['userdata_invalid_birthday_coppa2'] = 'Abyste se mohl(a) zaregistrovat musíte mít více než 13 let.';
 $l['userdata_invalid_birthday_privacy'] = 'Prosím, zvolte platnou volbu ochrany soukromí Vašeho data narození.';
+$l['userdata_conflicted_birthday_privacy'] = 'Prosím, zadejte váš rok narození, pokud chcete v zájmu ochrany soukromí zobrazit pouze věk a ne celé datum narození.';
 $l['userdata_invalid_referrer'] = 'Vámi uvedená referující osoba neexistuje. Zkuste, prosím, zadat existujícího, nebo nechte tohle pole prázdné.';
 $l['userdata_invalid_language'] = 'Vámi zvolený jazyk neexistuje. Zvolte si, prosím, existující.';
 $l['userdata_invalid_style'] = 'Vzhled, který jste vybral(a) je neplatný. Vyberte si, prosím, platný styl.';

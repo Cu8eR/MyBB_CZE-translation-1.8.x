@@ -12,12 +12,14 @@ $l['redirect_return_forum'] = "<br /><br />Nebo se můžete <a href=\"{1}\">vrá
 $l['redirect_emailsent'] = "Vaše e-mailová zpráva byla úspěšně odeslána.";
 $l['redirect_loggedin'] = "Vaše přihlášení proběhlo úspěšně.<br />Nyní budete přesměrován zpět, odkud jste přišel.";
 
+$l['update_confirm'] = "Následující soubory, které byly již přidány budou aktualizovány / nahrazeny nově vybranými soubory. {1} jste si jisti?";
 $l['error_invalidpworusername'] = "Zadal(a) jste neplatné uživatelské jméno či heslo. <br /><br />Pokud jste heslo zapomněl(a), prosím <a href=\"member.php?action=lostpw\">získejte nové</a>.";
 $l['error_invalidpworusername1'] = "Zadal(a) jste neplatný e-mail či heslo. <br /><br />Pokud jste heslo zapomněl(a), prosím <a href=\"member.php?action=lostpw\">získejte nové</a>.";
 $l['error_invalidpworusername2'] = "Zadal(a) jste neplatnou kombinaci uživatelského jména či hesla nebo e-mailu či hesla. <br /><br />Pokud jste heslo zapomněl(a), prosím, <a href=\"member.php?action=lostpw\">získejte nové</a>.";
 $l['error_incompletefields'] = "Zdá se, že nejméně jedno z požadovaných polí nebylo vyplněno. Prosím, vraťte se a vyplňte všechna požadovaná pole.";
 $l['error_alreadyuploaded'] = "Tento příspěvek již obsahuje jako přílohu soubor pojmenovanou \"{1}\". Prosím, přejmenujte jej a nahrajte znovu. Nebo klikněte na \"aktualizovat přílohu\".";
 $l['error_alreadyuploaded_perm'] = "Tento příspěvek již obsahuje jako přílohu soubor stejného jména. Prosím buď jej odstraňte nebo jej přejmenujte a nahrajte znovu.";
+$l['error_updatefailed'] = "Soubor \"{1}\" nebyl zatím přidán, proto nemůže být aktualizován.";
 $l['error_nomessage'] = "Nelze bohužel pokračovat, protože tato zpráva není validní. Prosím, vraťte se a opravte ji.";
 $l['error_invalidemail'] = "Uvedená e-mailová adresa není platná.";
 $l['error_nomember'] = "Zadaný uživatel neexistuje, nebo je chybně zadán.";
@@ -99,7 +101,7 @@ $l['emailsubject_newpm'] = "Nová soukromá zpráva na {1} - {2}";
 $l['emailsubject_newjoinrequest'] = "Nová žádost o připojení v {1}";
 $l['emailsubject_sendtofriend'] = "Zajímavý diskuze na {1}";
 $l['emailsubject_changepassword'] = "Změna hesla v {1}";
-$l['emailbit_viewthread'] = "&hellip;(pro pokračování ve čtení navštivte vlákno ve fóru&hellip;)";
+$l['emailbit_viewthread'] = "... (pro pokračování ve čtení navštivte vlákno ve fóru...)";
 
 $l['email_lostpw'] = "{1},
 

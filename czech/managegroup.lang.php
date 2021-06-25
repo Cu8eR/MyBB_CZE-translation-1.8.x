@@ -13,7 +13,7 @@ $l['nav_group_memberships'] = "Členství ve skupině";
 
 $l['not_leader_of_this_group'] = "Je mi líto, ale nejste vedoucím této skupiny uživatelů.";
 $l['invalid_group'] = "Tato skupina neexistuje.";
-$l['pending_requests'] ="Nevyřízené žádosti o členství";
+$l['pending_requests'] = "Nevyřízené žádosti o členství";
 $l['num_requests_pending'] = "Pro tuto skupinu je nyní <strong>{1}</strong> nevyřízených žádostí o členství.";
 $l['group_management'] = "Správa skupin";
 $l['members_of'] = "Členové v \"{1}\"";
@@ -29,7 +29,7 @@ $l['invite_member_submit'] = "Pozvat člena do skupiny";
 $l['join_requests'] = "Žádosti o členství";
 $l['join_requests_title'] = "Žádosti o členství do \"{1}\"";
 $l['leader'] = "(Vedoucí)";
-$l['reason'] ="Důvod";
+$l['reason'] = "Důvod";
 $l['accept'] = "Schválit";
 $l['ignore'] = "Ignorovat";
 $l['decline'] = "Odmítnout";

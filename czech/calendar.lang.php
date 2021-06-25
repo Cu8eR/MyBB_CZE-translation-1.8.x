@@ -35,7 +35,7 @@ $l['add_public_event'] = "Přidat veřejnou událost";
 
 $l['calendar'] = "Kalendář";
 
-$l['jump_month'] ="Přejít na měsíc:";
+$l['jump_month'] = "Přejít na měsíc:";
 
 $l['birthdays_on_day'] = "Narozeniny dne {1}";
 $l['birthdayhidden'] = "skryté";

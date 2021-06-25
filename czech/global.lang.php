@@ -124,8 +124,12 @@ $l['insert_attachment_post'] = "Vložit do příspěvku";
 $l['new_attachment'] = "Nová příloha:";
 $l['add_attachment'] = "Přidat přílohu";
 $l['update_attachment'] = "Aktualizovat přílohu";
-$l['attachment_too_many_files'] = "Můžete nahrát {1} příloh najednou.";
-$l['attachment_too_big_upload'] = "Můžete nahrát soubory o velikosti {1} bajtů najednou.";
+$l['attachment_missing'] = "Prosím vyberte jeden nebo více souborů k nahrání.";
+$l['attachment_too_many_files'] = "Můžete nahrát {1} souborů najednou.";
+$l['attachment_max_allowed_files'] = "Můžete přidat ještě {1} dalších souborů k tomuto příspěvku.";
+$l['attachment_too_big_upload'] = "Můžete nahrát soubory o maximální celkové velikosti {1} MB najednou.";
+$l['drop_files'] = "Klikněte nebo přesuňte zde soubory k nahrání...";
+$l['upload_initiate'] = "Pusťte pro zahájení nahrávání...";
 $l['post_preview'] = "Náhled";
 $l['change_user'] = "změnit uživatele";
 $l['post_icon'] = "Ikona příspěvku:";
@@ -308,6 +312,7 @@ $l['forumjump_wol'] = "Kdo je online";
 $l['forumjump_search'] = "Hledat";
 $l['forumjump_home'] = "Domů";
 
+$l['confirm_title'] = "Prosím potvrďte";
 $l['redirect'] = "Budete přesměrován(a)";
 $l['unknown_error'] = "Nastala neznámá chyba.";
 $l['post_fetch_error'] = 'Chyba při načítání příspěvků.';
@@ -327,8 +332,9 @@ $l['unapproved_attachment'] = "1 neschválená příloha";
 $l['unapproved_attachments'] = "{1} neschválené přílohy";
 $l['unread_report'] = "1 nepřečtené hlášení";
 $l['unread_reports'] = "{1} nepřečtených hlášení";
-$l['pending_joinrequest'] = "Upozornění pro vedoucí skupiny: máte 1 žádost pro udělení členství ve skupině.";
-$l['pending_joinrequests'] = "Upozornění pro vedoucí skupiny: máte {1} žádosti pro udělení členství ve skupině.";
+$l['groupleader_notice'] = "Upozornění pro vedoucí skupiny: {1}";
+$l['pending_joinrequest'] = "1 žádost pro udělení členství ve skupině";
+$l['pending_joinrequests'] = "{1} žádosti pro udělení členství ve skupině";
 
 $l['search_user'] = "Hledat uživatele";
 
@@ -519,6 +525,7 @@ $l['task_massmail_ran_errors'] = "Vyskytl se jeden nebo více problémů při po
 $l['task_versioncheck_ran'] = "Úloha: Zkontrolování verze MyBB - proběhla v pořádku.";
 $l['task_versioncheck_ran_errors'] = "Nepodařilo se spojit serverem MyBB z důvodu kontroly verze.";
 $l['task_recachestylesheets_ran'] = 'Obnovena cache {1} stylů.';
+$l['task_sendmailqueue_ran'] = 'Proces fronty odesílání e-mailů odeslal {1} zpráv.';
 
 $l['dismiss_notice'] = "Zrušit tohle oznámení";
 
@@ -596,4 +603,9 @@ $l['sfs_error_ip'] = 'IP';
 $l['sfs_error_email'] = 'E-mail';
 $l['sfs_error_or'] = 'nebo';
 
+$l['expcol_collapse'] = '[-]';
+$l['expcol_expand'] = '[+]';
+
 $l['boardclosed_reason'] = 'Fórum je momentálně mimo provoz z důvodu údržby. Zkuste to, prosím, později.';
+
+$l['use_default'] = "Use Default";
